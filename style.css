@@ -1,0 +1,212 @@
+.white {
+	color: #fff
+}
+
+@keyframes fadeEffect {
+	from {
+		opacity: 0
+	}
+	to {
+		opacity: 1
+	}
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700!important;
+	line-height: 1!important
+}
+
+.indicator {
+	color: #949ba2;
+	background-color: #222;
+	min-height: 0;
+	padding: 16px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: 6px;
+	border-radius: 0
+}
+
+.indicatoryellow {
+	padding: 0
+}
+
+.btn {
+	letter-spacing: .1em;
+	cursor: pointer;
+	font-size: 10px;
+	font-weight: 800;
+	line-height: 45px;
+	max-width: 250px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%
+}
+
+.btn:hover {
+	text-decoration: none
+}
+
+.col {
+	padding-top: 4px
+}
+
+.fa,
+.fas {
+	font-weight: 400
+}
+
+.fas fa-angle-up {
+	font-size: 16px;
+	font-weight: 100
+}
+
+.text-warning {
+	color: #f7af3e;
+	font-size: 28px!important;
+	font-weight: 100;
+	padding-left: 0
+}
+
+.hiddenitem {
+	display: none!important
+}
+
+.small,
+small {
+	font-size: 10px!important;
+	font-weight: 500!important;
+	color: #949ba2!important
+}
+
+@media screen and (max-width:576px) {
+	.small,
+	small {
+		font-size: 8px!important;
+		font-weight: 400!important;
+		color: #949ba2!important
+	}
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 10px
+}
+
+.m-b-none {
+	margin-top: 5px;
+	margin-bottom: 0!important;
+	color: #949ba2;
+	font-size: 23px
+}
+
+.indicatorcurrentvalue {
+	font-size: 26px;
+	color: #fff
+}
+
+.indicatorcurrentvaluexl {
+	font-size: 34px;
+	color: #fff
+}
+
+.c-white {
+	color: #fff
+}
+
+.dangertext {
+	color: #b22222
+}
+
+.my-centered {
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	display: block;
+	width: 100%;
+	color: white;
+}
+
+p {
+	font-size: 10px
+}
+
+.progress {
+	margin: 8px 0;
+	border-radius: 0!important;
+	height: 55px !important;
+	margin: 0px 0 0px 0!important;
+        background-color: #222222 !important;
+}
+
+.pp{
+    height: 55px;
+    width: 55px;
+    padding: 0;
+    margin: 0;
+}
+
+.withpadhead {
+	padding-top: 16px;
+	padding-bottom: 4px
+}
+
+.progress-bar{
+    background-color: #2b3245 !important: 
+}
+
+.headblue {
+	font-size: 12px!important;
+	font-weight: 600!important;
+    color: white;
+	z-index: 1000;
+	align-self: center;
+	align-content: center
+}
+
+.buttonoutsideindic {
+	margin-bottom: 2px;
+	font-size: 12px!important;
+	font-weight: 500!important;
+	line-height: 1.4!important;
+	padding: .5rem .7rem!important;
+	border-radius: 0!important;
+	text-transform: uppercase
+}
+
+.h5,
+h5 {
+	margin-bottom: .1rem!important;
+	margin-top: .5rem!important
+}
+
+.app-main {
+	margin-top: 6px
+}
+
+&::placeholder {
+	color: transparent
+}

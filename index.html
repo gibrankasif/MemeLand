@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>MEMELAND 69420 Leaderboard</title>
+      <link rel = "icon" href =  
+         "https://pbs.twimg.com/profile_images/795444009636229120/YU266O_0_400x400.jpg" 
+         type = "image/x-icon">
+      <meta name="theme-color" content="#1b1c22">
+      <meta name="msapplication-navbutton-color" content="#1b1c22">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#df0e34">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+      <meta charset="utf-8">
+      <title></title>
+      <meta name="author" content="">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style type="text/css">
+         html body { 
+         background-repeat: no-repeat;
+         background-size: fill;
+         background-color: black !important;
+         color: white;} /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+      </style>
+      <link href="style.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <style>
+         /* width */
+         ::-webkit-scrollbar {
+         width: 10px;
+         }
+         /* Track */
+         ::-webkit-scrollbar-track {
+         background: #f1f1f1; 
+         }
+         /* Handle */
+         ::-webkit-scrollbar-thumb {
+         background: #888; 
+         }
+         /* Handle on hover */
+         ::-webkit-scrollbar-thumb:hover {
+         background: #555; 
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container app-main" style="max-width: 100%">
+         <div class="row">
+            <div class="col-12">
+               <div class="indicator">
+                      <h2 class="white">MEMELAND 69420</h2>
+           Leaderboard from <span id="theinitialdate">-</span> to <span id="thefinaldate">-</span>
+                  <div class="small">
+          Wait a Few Seconds for the Data to Load
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <!--
+               <div class="col-12 col-md-5">
+                   
+                   <div class="indicator indicatoryellow">
+                                  <h6 class="headblue withpadhead" >How long Can you Focus on Wealth Work
+               </h6>
+                       
+                        <canvas id="newchart" width="1000" height="700"></canvas>
+                   
+                   </div></div>
+                   
+                   -->
+            <div class="col-12 col-md-6">
+                
+               <div class="indicator indicatorlightblue ">
+               
+                  <div class="panel panel-filled">
+                     <div class="panel-body">
+                        <div class="row">
+                           <div class="col-12 col-sm-12 col-md-12">
+                               
+                               
+                               <!--   
+                           <div class="small"><b>-</b></div>
+                             
+                               
+                              <h2 class="m-b-none">
+                                 <span class="indicatorcurrentvalue" id="wealth" style="color: gold;">-</span>
+                              
+                              </h2>
+                                -->
+         <div class="progress">      <img class="pp" src="images/shehanzlogonjesaleem.png">                              <div id="shehanzlogonjesaleem_bar" class="progress-bar" style="width: 0%;">  <span id="shehanzlogonjesaleem_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/adeeb.png">                              <div id="adeeb_bar" class="progress-bar" style="width: 0%;">  <span id="adeeb_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/aqeel.png">                              <div id="aqeel_bar" class="progress-bar" style="width: 0%;">  <span id="aqeel_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/apiseg.png">                              <div id="apiseg_bar" class="progress-bar" style="width: 0%;">  <span id="apiseg_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/ammar.png">                              <div id="ammar_bar" class="progress-bar" style="width: 0%;">  <span id="ammar_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/hiruni.png">                              <div id="hiruni_bar" class="progress-bar" style="width: 0%;">  <span id="hiruni_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/chamathka.png">                              <div id="chamathka_bar" class="progress-bar" style="width: 0%;">  <span id="chamathka_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/abish.png">                              <div id="abish_bar" class="progress-bar" style="width: 0%;">  <span id="abish_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/shimar.png">                              <div id="shimar_bar" class="progress-bar" style="width: 0%;">  <span id="shimar_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/pepsi.png">                              <div id="pepsi_bar" class="progress-bar" style="width: 0%;">  <span id="pepsi_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/sarah.png">                              <div id="sarah_bar" class="progress-bar" style="width: 0%;">  <span id="sarah_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/danuja.png">                              <div id="danuja_bar" class="progress-bar" style="width: 0%;">  <span id="danuja_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/japangirl.png">                              <div id="japangirl_bar" class="progress-bar" style="width: 0%;">  <span id="japangirl_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/mittunawaz.png">                              <div id="mittunawaz_bar" class="progress-bar" style="width: 0%;">  <span id="mittunawaz_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/wwnahnahnah.png">                              <div id="wwnahnahnah_bar" class="progress-bar" style="width: 0%;">  <span id="wwnahnahnah_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/mudithjay.png">                              <div id="mudithjay_bar" class="progress-bar" style="width: 0%;">  <span id="mudithjay_text" class="my-centered">-</span>   </div>  </div>
+ 
+  <div class="progress">      <img class="pp" src="images/fezal.png">                              <div id="fezal_bar" class="progress-bar" style="width: 0%;">  <span id="fezal_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/gibran.png">                              <div id="gibran_bar" class="progress-bar" style="width: 0%;">  <span id="gibran_text" class="my-centered">-</span>   </div>  </div>
+  
+                               <div class="progress">      <img class="pp" src="images/janiya.png">                              <div id="janiya_bar" class="progress-bar" style="width: 0%;">  <span id="janiya_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/alex.png">                              <div id="alex_bar" class="progress-bar" style="width: 0%;">  <span id="alex_text" class="my-centered">-</span>   </div>  </div>
+                               
+                               
+                               <div class="progress">      <img class="pp" src="images/demolisher.png">                              <div id="demolisher_bar" class="progress-bar" style="width: 0%;">  <span id="demolisher_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/deshsatan.png">                              <div id="deshsatan_bar" class="progress-bar" style="width: 0%;">  <span id="deshsatan_text" class="my-centered">-</span>   </div>  </div>
+                               <div class="progress">      <img class="pp" src="images/keshali.png">                              <div id="keshali_bar" class="progress-bar" style="width: 0%;">  <span id="keshali_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/laky.png">                              <div id="laky_bar" class="progress-bar" style="width: 0%;">  <span id="laky_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/maneesha.png">                              <div id="maneesha_bar" class="progress-bar" style="width: 0%;">  <span id="maneesha_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/thivvyan.png">                              <div id="thivvyan_bar" class="progress-bar" style="width: 0%;">  <span id="thivvyan_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/whitefang.png">                              <div id="whitefang_bar" class="progress-bar" style="width: 0%;">  <span id="whitefang_text" class="my-centered">-</span>   </div>  </div>
+  <div class="progress">      <img class="pp" src="images/zeenathshadim.png">                              <div id="zeenathshadim_bar" class="progress-bar" style="width: 0%;">  <span id="zeenathshadim_text" class="my-centered">-</span>   </div>  </div>
+ 
+                               
+                               
+                               
+                               
+                               
+                           </div>
+                      
+                         </div>
+                         
+                         
+                         <br>
+                     </div>
+                  </div>
+               </div>
+            </div>
+       
+         </div>
+      </div>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="script.js"></script>
+   </body>
+</html>
